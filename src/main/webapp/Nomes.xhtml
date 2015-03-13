@@ -9,9 +9,9 @@
 
 <h:body>
 	<h:form>
-Nome: <h:inputText value="#{nomesBean.nome}" />
+Nome: <h:inputText value="#{nomesBean.nome}" binding="#{nomesBean.inputNome}" />
 		<br />
-		<h:commandButton action="#{nomesBean.adicionar}" value="Adicionar" />
+		<h:commandButton action="#{nomesBean.adicionar}" value="Adicionar" binding="#{nomesBean.botaoAdicionar}"  />
 		<br />
 
 		<ol>

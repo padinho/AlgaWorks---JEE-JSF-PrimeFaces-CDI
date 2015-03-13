@@ -1,3 +1,4 @@
+package com.algaworks.financeiro.controller;
 import javax.faces.bean.ManagedBean;
 
 @ManagedBean(name = "ola")
