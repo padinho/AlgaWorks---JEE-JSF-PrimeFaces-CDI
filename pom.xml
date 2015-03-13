@@ -30,7 +30,7 @@
 			<version>3.0.1</version>
 			<scope>provider</scope>
 		</dependency>
-	
+
 
 		<!-- Núcleo do Hibernate -->
 		<dependency>
@@ -53,6 +53,14 @@
 			<version>5.1.26</version>
 			<scope>compile</scope>
 		</dependency>
-		
+
+		<!-- Mojarra (implementacao do JSF) -->
+		<dependency>
+			<groupId>org.glassfish</groupId>
+			<artifactId>javax.faces</artifactId>
+			<version>2.2.2</version>
+			<scope>compile</scope>
+		</dependency>
+
 	</dependencies>
 </project>
