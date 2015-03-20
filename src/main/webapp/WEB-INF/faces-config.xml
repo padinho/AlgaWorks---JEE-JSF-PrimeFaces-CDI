@@ -12,4 +12,10 @@ com.algaworks.financeiro.controller.NomesBean
 <managed-bean-scope>view</managed-bean-scope>
 </managed-bean>
 
+<application>
+<message-bundle>
+com.algaworks.financeiro.resources.Messages
+
+</message-bundle></application>
+
 </faces-config>
